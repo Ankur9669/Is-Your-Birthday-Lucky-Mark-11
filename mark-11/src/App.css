@@ -35,6 +35,10 @@
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+.message{
+  font-size: 2rem;
+  font-weight: 600;
+}
 .input{
   display: block;
   margin: auto;
@@ -48,6 +52,24 @@
   margin-bottom: 5px;
   font-size: 1.3rem;
   font-weight: 600;
+}
+.label-description{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-style: oblique;
+}
+.button{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  background: rgb(78,58,180);
+  background: linear-gradient(90deg, rgba(78,58,180,1) 31%, rgba(15,169,190,1) 69%, rgba(69,230,252,1) 98%);
 }
 .list-non-bulleted{
   list-style: none;

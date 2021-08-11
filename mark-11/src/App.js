@@ -73,11 +73,11 @@ function App()
           <input type = "date" className = "input" onChange = {(e) => handleDateChange(e)} required></input>
           <label for = "lucky-number" className = "label">Enter your lucky number: </label>
           <input type = "number" className = "input" onChange = {(e) => handleNumberChange(e)} required></input>
-          <button type = "submit">Check</button>
+          <button type = "submit" className = "button">Check</button>
         </form>
 
         {verdict && 
-          <div>
+          <div className = "message">
             {messageToBeShownToTheUser}
           </div>
         }
